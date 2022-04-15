@@ -17,4 +17,84 @@ hist(Nile)
 
 # 변수
 
+var1 <- 0
+var1
+var1 <- 1
+var1
 
+
+goods.code <- 'a001'  # 문자값저장
+goods.name <- '냉장고'
+
+
+age <- 35
+name <- "홍길동"
+age
+name
+
+
+age <- 35
+names <- c("홍길동","이순신","유관순")  # 컴바인함수 
+age
+names
+
+
+int <- 20
+int
+
+string <- "홍길동"
+
+
+boolean <- TRUE
+boolean
+
+
+sum(10,20,30)
+
+sum(10,20,30,NA)
+
+sum(10,20,20,NA, na.rm=TRUE)
+
+is.character(string)
+
+x <- is.numeric(int)
+x
+
+is.logical(boolean)
+
+is.na(x)
+
+
+x <- c(1,2,"3")
+x
+
+result <- x * 3
+
+result <- as.numeric(x) * 3
+
+result
+
+
+mode(int)
+
+mode(string)
+
+mode(boolean)
+
+
+gender <- c("man","woman","woman","man","man")
+
+plot(gender)
+
+Ngender <- as.factor(gender)
+table(Ngender)
+
+
+plot(Ngender)
+
+mode(Ngender)
+
+class(Ngender)
+
+
+is.factor(Ngender)
